@@ -1,0 +1,262 @@
+/* common css starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+       align-items: center;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: #02918c;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+/* common css ends */
+
+/* nav start */
+nav{
+    background-color: #02918c;
+}
+.logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: inline-block;
+}
+/* nav ends */
+
+/* banner starts */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner_cnt img{
+    margin: 52px 0;
+}
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 19px 43px;
+    display: inline-block;
+}
+#banner .container{
+    height: 100%;
+}
+#banner .row{
+    height: 100%;
+}
+/* banner ends */
+
+/* about me starts */
+
+#about_me{
+    padding: 98px 0;
+}
+#normal{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 31px;
+}
+#Carbrac{
+    padding: 30px 0;
+    color: #7e8287;
+}
+span{
+    font-weight: 800;
+    font-size: 23px;
+}
+.about_card{
+    width: 25%;
+    text-align: center;
+    margin-top: 121px;
+    padding: 30px 0;
+    border-right: 1px solid rgba(128, 128, 128, 0.541) ;
+}
+.about_card:last-child{
+    border:none;
+}
+.about_card span{
+    color:  #02918c;
+    font-size: 34px;
+}
+.about_card h4{
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 28px 0;
+}
+.about_card p{
+    font-size: 11px;
+    color: #7e8287;
+}
+/* about me ends */
+
+/* Services starts */
+
+
+#service{
+    background-image: url(../images/services.jpg);
+    background-size: cover;
+    padding-top: 74px;
+    padding-bottom: 85px;
+}
+#service .heading{
+    text-align: left;
+}
+.service_card{
+    width: 50%;
+    padding-top: 55px;
+    
+}
+#service .row{
+    width: 50%;
+}
+.service_card span{
+    color:  #02918c;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.service_card h4{
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 20px 0;
+}
+.service_card p{
+    font-size: 11px;
+    color: #7e8287;
+}
+/* Services ends */
+
+/* work starts */
+
+#work .heading{
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.work_img{
+    width: 25%;
+    position: relative;
+}
+.work_img img{
+    width:100%;
+    display: block;
+}
+.work_img .over{
+    background-color:rgba(2, 145, 140, 0.85);
+    position: absolute;
+    inset: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 58px;
+    transform: scale(0);
+    transition: 0.37s;
+    opacity: 0;
+
+}
+.work_img:hover .over{
+    transform: scale(1);
+    opacity: 1;
+}
+/* work ends */
+
+/* contact starts */
+
+#contact .heading{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+#contact .contact_me{
+    background-color: #0a0a0b;
+    padding: 70px 0;
+    text-align: center;
+}
+input{
+    width: 635px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 60px;
+    padding:15px 0;
+}
+/* contact ends */
+
+/* copyright starts */
+
+#copyright{
+    background-color: #000000;
+    color: #7e8287;
+}
+footer{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* copyright ends */
+
